@@ -3,24 +3,13 @@
 
 **Думаю эта статья подойдет не только тем людям кто учиться на кибербез, но и тем кто хочет подтянуть свои знания в чем либо**
 
-- [Network](./Network)
- 
-  [OSI Model](./Network/osi.md)
-  
-  [TCP](./Network/tcp.md)
+<details>
+<summary><b>Раздел Network</b></summary>
 
-  [ETHERNET](./Network/ethernet.md)
+* **Корень:** [Network](./Network)
+* **Модели и схемы:** [OSI Model](./Network/osi.md) | [Схемы](./Network/смехы.md)
+* **Канальный уровень:** [Ethernet](./Network/ethernet.md) | [ARP](./Network/arp.md)
+* **IP-адресация:** [IPv4](./Network/ipv4.md) | [IPv6](./Network/ipv6.md) | [IPv4/IPv6](./Network/ipv4-ipv6.md) | [NAT](./Network/nat.md)
+* **Транспорт:** [TCP](./Network/tcp.md) | [UDP](./Network/udp.md)
 
-  [IPV4/IPV6](./Network/ipv4-ipv6.md)
-
-  [IPV4](./Network/ipv4.md)
-
-  [IPV6](./Network/ipv6.md)
-
-  [NAT](./Network/nat.md)
-
-  [UDP](./Network/udp.md)
-
-  [СХЕМЫ](./Network/смехы.md)
-
-  [ARP](./Network/arp.md)
+</details>
