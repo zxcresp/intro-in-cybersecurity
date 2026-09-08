@@ -9,16 +9,16 @@
 Работает с портами
 
 Пример:
-	HTTP/HTTPS → обычно TCP
-	SSH → TCP
-	FTP → TCP
+* HTTP/HTTPS → обычно TCP
+* SSH → TCP
+* FTP → TCP
 
 Протоколы (относятся к прикладному)
-	SMTP - почта
-	FTP - передача файлов
-	HTTP - Браузер
+* SMTP - почта
+* FTP - передача файлов
+* HTTP - Браузер
 
-3-way handshake:
+<b>3-way handshake:</b>
 
 	Клиент              Сервер
 
