@@ -9,7 +9,7 @@
 * **Корень:** [Network](./Network)
 * **Модели и схемы:** [OSI Model](./Network/osi.md) | [Схемы](./Network/смехы.md)
 * **Канальный уровень:** [Ethernet](./Network/ethernet.md) | [ARP](./Network/arp.md)
-* **IP-адресация:** [IPv4](./Network/ipv4.md) | [IPv6](./Network/ipv6.md) | [IPv4/IPv6](./Network/ipv4-ipv6.md) | [NAT](./Network/nat.md)
+* **Адресация и резолвинг** [IPv4](./Network/ipv4.md) | [IPv6](./Network/ipv6.md) | [IPv4/IPv6](./Network/ipv4-ipv6.md) | [NAT](./Network/nat.md) | [DNS](./Network/dns.md)
 * **Транспорт:** [TCP](./Network/tcp.md) | [UDP](./Network/udp.md)
 
 </details>
