@@ -3,24 +3,24 @@
 
 **Думаю эта статья подойдет не только тем людям кто учиться на кибербез, но и тем кто хочет подтянуть свои знания в чем либо**
 
-- [Network](./network/)
+- [Network](./Network)
  
-  [OSI Model](./network/osi.md)
+  [OSI Model](./Network/osi.md)
   
-  [TCP](./network/tcp.md)
+  [TCP](./Network/tcp.md)
 
-  [ETHERNET](./network/ethernet.md)
+  [ETHERNET](./Network/ethernet.md)
 
-  [IPV4/IPV6](./network/ipv4-ipv6.md)
+  [IPV4/IPV6](./Network/ipv4-ipv6.md)
 
-  [IPV4](./network/ipv4.md)
+  [IPV4](./Network/ipv4.md)
 
-  [IPV6](./network/ipv6.md)
+  [IPV6](./Network/ipv6.md)
 
-  [NAT](./network/nat.md)
+  [NAT](./Network/nat.md)
 
-  [UDP](./network/udp.md)
+  [UDP](./Network/udp.md)
 
-  [СХЕМЫ](./network/смехы.md)
+  [СХЕМЫ](./Network/смехы.md)
 
-  [ARP](./network/arp.md)
+  [ARP](./Network/arp.md)
