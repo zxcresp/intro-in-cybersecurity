@@ -13,3 +13,8 @@
 * **Транспорт:** [TCP](./Network/tcp.md) | [UDP](./Network/udp.md)
 
 </details>
+
+<details>
+<summary><b>Раздел Linux</b></summary>
+
+</details>
