@@ -1,4 +1,12 @@
 # Introduction to Cybersecurity (ENG)
+
+<p align="center">
+  <b>Language:</b> 
+  <a href="https://github.com/zxcresp/intro-in-cybersecurity/tree/main">Русский</a> | 
+  <a href="https://github.com/zxcresp/intro-in-cybersecurity/tree/eng">English</a>
+</p>
+
+---
 **Hello everyone! I’ve decided to start learning cybersecurity and share my notes here. For now, I’ll be posting everything in Russian, but I can switch to English if needed.**
 
 **I think this content will be useful not only for those studying cybersecurity but also for anyone looking to brush up on their knowledge in various areas.**
