@@ -30,6 +30,7 @@
 
 * **Root:** [Linux](./Linux)
 * **Basics and Terminal:** [Terminal Basics](./Linux/Команды.md)
+* **Administration:** [SSH](./Linux/SSH.md)
 * [README](./Linux/README.md)
 
 </details>
