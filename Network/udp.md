@@ -1,21 +1,21 @@
 # UDP
 
-Не устанавливает соединение как TCP;
+Does not establish a connection like TCP;
 
-Не гарантирует доставку;
+Does not guarantee delivery;
 
-Не гарантирует порядок пакетов;
+Does not guarantee packet order;
 
-Имеет небольшой overhead;
+Has low overhead;
 
-Обычно быстрее и проще TCP
+Generally faster and simpler than TCP;
 
-Используется, например, там, где важнее скорость и задержка, чем повторная доставка каждого потерянного пакета.
+Used, for example, where speed and latency are more important than retransmitting every lost packet
 
-Примеры:
+Examples:
 
 DNS;
 VoIP;
-видеозвонки;
-некоторые игровые протоколы;
-потоковая передача
+video calls;
+some game protocols;
+streaming
