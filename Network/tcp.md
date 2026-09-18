@@ -1,37 +1,37 @@
 # TCP
 
-Канальный (канальный, физический), межсетевой, транспортный, прикладной(сеансовый, представления, прикладной)
+Link (Data Link, Physical), Internet, Transport, Application (Session, Presentation, Application)
 
-Устанавливает соединение;
-Гарантирует доставку данных;
-Сохраняет порядок данных;
-Использует подтверждения и повторную передачу;
-Работает с портами
+Establishes a connection;
+Guarantees data delivery;
+Preserves data order;
+Uses acknowledgments and retransmission;
+Works with ports
 
-Пример:
-* HTTP/HTTPS → обычно TCP
+Examples:
+* HTTP/HTTPS → usually TCP
 * SSH → TCP
 * FTP → TCP
 
-Протоколы (относятся к прикладному)
-* SMTP - почта
-* FTP - передача файлов
-* HTTP - Браузер
+Protocols (belonging to the Application layer)
+* SMTP - email
+* FTP - file transfer
+* HTTP - web browser
 
 <b>3-way handshake:</b>
+```
+Client        Server
 
-	Клиент              Сервер
+SYN  ──────────→  
+←────────── SYN-ACK  
+ACK  ──────────→  
 
-	   SYN  ──────────→
-	        ←────────── SYN-ACK
-	   ACK  ──────────→
+Connection established
+```
+Port range: 1 to 65535 (Transport layer)
 
-          Соединение установлено
+Well-known ports: 1 to 1023 (HTTP - 80, HTTPS - 443, DNS - 53)
 
-Порт от 1 до 65535 (относится к транспортному)
+Registered ports: 1024 to 49151 (IANA)
 
-Общепринятые от 1 до 1023 (HTTP - 80, HTTPS - 443, DNS - 53)
-
-Зарегистрированые от 1024 до 49151 (IANA)
-
-Для любых целей от 49151 до 65535 (ОС)
+Dynamic/Private ports: 49151 to 65535 (OS)
