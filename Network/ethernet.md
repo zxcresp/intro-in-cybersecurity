@@ -1,26 +1,26 @@
 # Ethernet
 
-Ethernet - технология канального уровня, работающая поверх физического уровня
+Ethernet is a data link layer technology that operates over the physical layer
 
-Она определяет, например:
+It defines, for example:
 
-Формат Ethernet-кадра;
+The Ethernet frame format;
 
-MAC-адреса;
+MAC addresses;
 
-Как устройства передают кадры внутри локальной сети
-
-	┌───────────────────────────────┐
-	│ Ethernet frame                │
-	│                               │
-	│ MAC назначения                │
-	│ MAC источника                 │
-	│ IPv4 packet                   │
-	│ TCP/UDP                       │
-	│ данные                        │
-	│                               │
-	└───────────────────────────────┘
-
+How devices transmit frames within a local area network
+```
+┌───────────────────────────────┐
+│ Ethernet frame                │
+│                               │
+│ Destination MAC               │
+│ Source MAC                    │
+│ IPv4 packet                   │
+│ TCP/UDP                       │
+│ Data                          │
+│                               │
+└───────────────────────────────┘
+```
 IP ≠ Ethernet
 
-IP отвечает за сетевую адресацию и маршрутизацию, а Ethernet - за передачу кадров в локальном сегменте
+IP is responsible for network addressing and routing, while Ethernet handles frame transmission within the local segment
