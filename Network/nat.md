@@ -1,21 +1,21 @@
 # NAT
 
-NAT - Network Address Translation
-Он позволяет устройствам с приватными адресами выходить в Интернет через публичный адрес маршрутизатора
+NAT – Network Address Translation
+It allows devices with private addresses to access the Internet using the router's public address
 
-Пример:
+Example:
+```
+	Your PC
+192.168.1.100:52000
+      ↓
+	Router
+  192.168.1.1
+      ↓
+   Public IP
+   85.x.x.x
+      ↓
+   Internet
+```
+The router tracks connection mappings and translates addresses/ports
 
-     Твой ПК
-	192.168.1.100:52000
-		↓
-     Роутер
-   	192.168.1.1
-        ↓
-   	Публичный IP
-     85.x.x.x
-        ↓
-     Internet
-
-Роутер запоминает соответствие соединений и преобразует адреса/порты.
-
-Это одна из причин, почему огромное количество устройств может использовать приватные IPv4-адреса.
+This is one of the reasons why a vast number of devices can use private IPv4 addresses
