@@ -7,7 +7,7 @@
 </p>
 
 ---
-**Hello everyone! I’ve decided to start learning cybersecurity and share my notes here. For now, I’ll be posting everything in Russian, but I can switch to English if needed.**
+**Hello everyone! I’ve decided to start learning cybersecurity and share my notes here.**
 
 **I think this content will be useful not only for those studying cybersecurity but also for anyone looking to brush up on their knowledge in various areas.**
 
