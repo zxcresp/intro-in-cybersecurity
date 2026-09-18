@@ -1,8 +1,7 @@
-# IPV6
+# IPv6
 
-IPv6 появился прежде всего потому, что адресного пространства IPv4 недостаточно
+IPv6 emerged primarily because the IPv4 address space is insufficient
 
-IPv6 использует 128 бит
+IPv6 uses 128 bits
 
-Пример: 2001:db8:1234:5678::1
-	
+Example: 2001:db8:1234:5678::1
