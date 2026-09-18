@@ -31,6 +31,7 @@
   
 * **Корень:** [Linux](./Linux)
 * **Основы и терминал:** [Основы терминала](./Linux/Команды.md)
+* **Администрирование**: [SSH](./Linux/SSH.md)
 * [README](./Linux/README.md)
 
 </details>
