@@ -1,3 +1,3 @@
-**Здесь описаны OSI, TCP, UDP, IPV4/IPV6, NAT, MAC, ARP, DNS, ETHERNET**
+This covers OSI, TCP, UDP, IPv4/IPv6, NAT, MAC, ARP, DNS, and Ethernet
 
-Постарался все сделать максимально удобно и понятно
+I’ve tried to make everything as convenient and easy to understand as possible
