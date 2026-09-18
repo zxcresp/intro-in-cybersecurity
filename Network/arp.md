@@ -1,19 +1,19 @@
 # ARP
 
-ARP связывает IPv4-адрес с MAC-адресом в локальной сети
+ARP maps an IPv4 address to a MAC address on a local network
 
-Например, компьютер знает:
+For example, a computer knows:
+```
+192.168.1.5
 
-	192.168.1.5
+But it needs the MAC address
 
-	Но ему нужен MAC
+It asks:
 
-	Он спрашивает:
+"Who has IP 192.168.1.5?" 
 
-	«У кого IP 192.168.1.5?»
+A device replies:
 
-	Устройство отвечает:
-
-	«Это я, Мой MAC — XX:XX:XX:XX:XX:XX»
-
-Полученное соответствие хранится в ARP cache
+"That's me. My MAC is XX:XX:XX:XX:XX:XX"
+```
+The resulting mapping is stored in the ARP cache
