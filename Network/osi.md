@@ -1,26 +1,26 @@
 # OSI
 
-| № | Уровень       | Что делает                           |
-| - | ------------- | ------------------------------------ |
-| 7 | Прикладной    | Взаимодействие сетевых приложений    |
-| 6 | Представления | Формат данных, кодировки, шифрование |
-| 5 | Сеансовый     | Управление сеансом связи             |
-| 4 | Транспортный  | Доставка данных между процессами     |
-| 3 | Сетевой       | IP-адресация и маршрутизация         |
-| 2 | Канальный     | Передача внутри локальной сети       |
-| 1 | Физический    | Передача битов по среде              |
-Отправитель - сверху вниз, получатель - снизу вверх
+| No. | Layer          | Function                             |
+| --- | -------------- | ------------------------------------ |
+| 7   | Application    | Network application interaction      |
+| 6   | Presentation   | Data format, encoding, encryption    |
+| 5   | Session        | Communication session management     |
+| 4   | Transport      | Data delivery between processes      |
+| 3   | Network        | IP addressing and routing            |
+| 2   | Data Link      | Transmission within a local network  |
+| 1   | Physical       | Bit transmission over the medium     |
+Sender: top-down; receiver: bottom-up
 
-Физический - кабель/сигнал/биты
+Physical – cable/signal/bits
 
-Канальный - MAC/ARP/ETHERNET
+Data Link – MAC/ARP/Ethernet
 
-Сетевой - IP
+Network – IP
 
-Транспортный - UDP/TCP/PORT
+Transport – UDP/TCP/Port
 
-Сеансовый - Сессия
+Session – Session
 
-Представления - шифрование/кодировка
+Presentation – encryption/encoding
 
-Прикладной - HTTP/HTTPS/DNS/SSH
+Application – HTTP/HTTPS/DNS/SSH
