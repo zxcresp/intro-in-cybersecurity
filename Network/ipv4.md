@@ -1,14 +1,14 @@
-# IPV4
+# IPv4
 
-IPV4 состоит из 4 частей, каждая от 0 до 255
+IPv4 consists of 4 parts, each ranging from 0 to 255
 
-Пример: 192.168.1.10
+Example: 192.168.1.10
 
-Каждая часть IP занимает 8 бит
+Each part of the IP occupies 8 bits
 
-Состоит из
-	[часть сети][часть хоста]
+Consists of  
+```[network part][host part]```
+	
+Example: 192.168.1.10/24
 
-Пример: 192.168.1.10/24
-
-Где /24 означает что первые 24 бита относятся к сети
+Where /24 indicates that the first 24 bits belong to the network
