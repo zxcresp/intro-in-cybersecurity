@@ -1,43 +1,43 @@
 # DNS
-                                                      
-DNS (Domain Name System) - система, которая переводит доменные имена в IP-адреса
 
-Человек запоминает:
+DNS (Domain Name System) is a system that translates domain names into IP addresses
+
+Humans remember:
 google.com
 
-Компьютеру для соединения нужен IP:
+Computers need an IP to connect:
 142.250.x.x
 
-Например:
-  ```
-   google.com
-       ↓
-      DNS
-       ↓
-  142.250.x.x
-  ```
+For example:
+```
+google.com
+↓
+DNS
+↓
+142.250.x.x
+```
 
-Вот что происходит когда вводишь домен сайта:
-  ```
-       Браузер
-          ↓
-«Мне нужен IP example.com»
-          ↓
-         DNS
-          ↓
-«IP = 93.184.216.34»
-          ↓
-Подключение к 93.184.216.34
-          ↓
-         TCP
-          ↓
-        HTTPS
-  ```
-DNS Использует UDP и TCP
+Here is what happens when you enter a website domain:
+```
+Browser
+↓
+"I need the IP for example.com"
+↓
+DNS
+↓
+"IP = 93.184.216.34"
+↓
+Connect to 93.184.216.34
+↓
+TCP
+↓
+HTTPS
+```
+DNS uses UDP and TCP
 ```
 DNS
-├── UDP 53 - обычно
-└── TCP 53 - тоже используется
+├── UDP 53 - typically
+└── TCP 53 - also used
 ```
 
-DNS-ответы также могут кэшироваться, чтобы не спрашивать одно и то же каждый раз
+DNS responses can also be cached to avoid asking the same thing every time.
