@@ -262,9 +262,9 @@ SameSite=Lax
 SameSite=None
 ```
 
-* **Strict** — the Cookie is generally not sent with cross-site requests;
-* **Lax** — the Cookie can be sent in certain top-level navigations, such as following a link using `GET`;
-* **None** — the Cookie can be sent in cross-site contexts; it requires the `Secure` attribute.
+* **Strict** - the Cookie is generally not sent with cross-site requests;
+* **Lax** - the Cookie can be sent in certain top-level navigations, such as following a link using `GET`;
+* **None** - the Cookie can be sent in cross-site contexts; it requires the `Secure` attribute.
 
 For example:
 
