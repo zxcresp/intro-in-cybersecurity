@@ -22,6 +22,7 @@
 * **Канальный уровень:** [Ethernet](./Network/ethernet.md) | [ARP](./Network/arp.md)
 * **Адресация и резолвинг:** [IPv4](./Network/ipv4.md) | [IPv6](./Network/ipv6.md) | [IPv4/IPv6](./Network/ipv4-ipv6.md) | [NAT](./Network/nat.md) | [DNS](./Network/dns.md)
 * **Транспорт:** [TCP](./Network/tcp.md) | [UDP](./Network/udp.md)
+* **Веб-протоколы:** [Cookie](./Network/cookie.md)
 * [README](./Network/README.md)
 
 </details>
