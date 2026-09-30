@@ -2,7 +2,7 @@
 
 ## HTTP
 
-**HTTP (Hyper Transfer Protocol)** is a protocol that enables the client and server to exchange data over the internet.
+**HTTP (Hypertext Transfer Protocol)** is a protocol that enables the client and server to exchange data over the internet.
 
 Example:
 
@@ -28,7 +28,7 @@ HTTP → TCP 80
 Example:
 
 ```
-GET /profile HTTP/11
+GET /profile HTTP/1.1
 Host: example.com
 User-Agent: Firefox
 ```
@@ -61,7 +61,7 @@ Example:
 
 ```
 HTTP/1.1 200 OK
-Content-Type: /html
+Content-Type: text/html
 ```
 
 After the headers, the server can send the response body:
