@@ -2,7 +2,7 @@
 
 ## HTTP
 
-**HTTP (Hyper Transfer Protocol)** - протокол, по которому клиент и сервер обмениваются данными в интернете
+**HTTP (Hypertext Transfer Protocol)** - протокол, по которому клиент и сервер обмениваются данными в интернете
 
 Пример:
 
@@ -28,7 +28,7 @@ HTTP → TCP 80
 Пример:
 
 ```
-GET /profile HTTP/11
+GET /profile HTTP/1.1
 Host: example.com
 User-Agent: Firefox
 ```
@@ -61,7 +61,7 @@ User-Agent: Firefox
 
 ```
 HTTP/11 200 OK
-Content-Type: /html
+Content-Type: text/html
 ```
 
 После заголовков сервер может отправить тело ответа:
