@@ -37,7 +37,7 @@ Main parts:
 
 * `GET` - HTTP method;
 * `/profile` - path to the resource;
-* `HTTP/11` - HTTP version;
+* `HTTP/1.1` - HTTP version;
 * `Host` - server domain;
 * `User-Agent` - client information
 
