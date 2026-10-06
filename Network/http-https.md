@@ -37,7 +37,7 @@ User-Agent: Firefox
 
 * `GET` - HTTP-метод;
 * `/profile` - путь к ресурсу;
-* `HTTP/11` - версия HTTP;
+* `HTTP/1.1` - версия HTTP;
 * `Host`- домен сервера;
 * `User-Agent` - информация о клиенте
 
@@ -60,7 +60,7 @@ User-Agent: Firefox
 Пример:
 
 ```
-HTTP/11 200 OK
+HTTP/1.1 200 OK
 Content-Type: text/html
 ```
 
