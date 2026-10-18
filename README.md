@@ -31,7 +31,7 @@
 
 * **Root:** [Linux](./Linux)
 * **Basics and Terminal:** [Terminal Basics](./Linux/Команды.md)
-* **Administration:** [SSH](./Linux/SSH.md)
+* **Administration:** [SSH](./Linux/SSH.md) | [Access Rights](./Linux/access_rights.md)
 * [README](./Linux/README.md)
 
 </details>
