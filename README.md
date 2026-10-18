@@ -32,7 +32,7 @@
   
 * **Корень:** [Linux](./Linux)
 * **Основы и терминал:** [Основы терминала](./Linux/Команды.md)
-* **Администрирование**: [SSH](./Linux/SSH.md)
+* **Администрирование**: [SSH](./Linux/SSH.md) | [Права доступа](./Lunix/access_rights.md)
 * [README](./Linux/README.md)
 
 </details>
